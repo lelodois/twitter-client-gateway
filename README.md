@@ -4,7 +4,7 @@
 ### Build docker
 - mvn install
 - docker build -t twcli-gateway-docker .
-- docker run --net mynet123 --ip 172.18.0.22 -d -p 8092:8092 {tag}
+- docker run --net twclientnet --ip 172.18.0.22 -d -p 8092:8092 {tag}
 
 ### Tecnologias
 - Java 8 (rest)
