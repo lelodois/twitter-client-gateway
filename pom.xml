@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br.com.lelo</groupId>
-    <artifactId>twitter-gateway</artifactId>
+    <artifactId>twitter-client-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>twitter-gateway</name>
+    <name>twitter-client-gateway</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -67,6 +67,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>twitter-client-gateway</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
